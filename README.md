@@ -3,7 +3,7 @@ Dock a ligand near an atom selection or to an exact location
 
 ## Usage
 There are two ways of using the `dock` command.  
-You can either `dock near` or `dock to`.  
+You can either use `dock near` or `dock to`.  
 `dock near` will dock the ligand near an atom selection.  
 `dock to` will dock the ligand to an exact XYZ location.
 
