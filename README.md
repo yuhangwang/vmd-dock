@@ -2,6 +2,10 @@
 Dock a ligand near an atom selection or to an exact location
 
 ## Usage
+First, copy the `dock.tcl` to your current directory.  
+Then open VMD's "Extensions/Tk Console" and type `source dock.tcl`.  
+This will make the `dock` command available to you.
+
 There are two ways of using the `dock` command.  
 You can either use `dock near` or `dock to`.  
 `dock near` will dock the ligand near an atom selection.  
