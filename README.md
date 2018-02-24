@@ -8,24 +8,22 @@ You can either `dock near` or `dock to`.
 `dock to` will dock the ligand to an exact XYZ location.
 
 ### `dock near`
-Usage: `dock near <molecule ID of ligand> <ligand_selection> <the other molecule ID> <destination_selection>`
-
-### Example:
-`dock near 1 "all" 0 "resid 225"`  
-"1" is the molecule ID for the ligand.  
-"0" is the molecule ID for the protein.   
-Selection "all" selects the ligand in molecule 1.   
-Selection "resid 225" selects the destination in molecule 0.  
+- Usage: `dock near <molecule ID of ligand> <ligand_selection> <the other molecule ID> <destination_selection>`
+- Example:
+  `dock near 1 "all" 0 "resid 225"`  
+  "1" is the molecule ID for the ligand.  
+  "0" is the molecule ID for the protein.   
+  Selection "all" selects the ligand in molecule 1.   
+  Selection "resid 225" selects the destination in molecule 0.  
 
 
 ### `dock to`
-Usage: `dock to <molecule ID of ligand> <ligand_selection> <destination XYZ>`
-
-### Example:
-`dock to 1 "all" {0 0 0}`  
-"1" is the molecule ID for the ligand.  
-"0" is the molecule ID for the protein.   
-{0 0 0} is the destination.
+- Usage: `dock to <molecule ID of ligand> <ligand_selection> <destination XYZ>`
+- Example:
+  `dock to 1 "all" {0 0 0}`  
+  "1" is the molecule ID for the ligand.  
+  "0" is the molecule ID for the protein.   
+  {0 0 0} is the destination.
 
 
 ## Info
