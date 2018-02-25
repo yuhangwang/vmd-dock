@@ -1,7 +1,7 @@
 # vmd-dock
 Dock a ligand near an atom selection or to an exact location
 
-# Download
+## Download
 Here is the [latest release](https://github.com/yuhangwang/vmd-dock/releases/download/0.1.0/dock.tcl)
 
 ## Usage
