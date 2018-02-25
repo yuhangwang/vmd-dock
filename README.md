@@ -1,6 +1,9 @@
 # vmd-dock
 Dock a ligand near an atom selection or to an exact location
 
+# Download
+Here is the [latest release](https://github.com/yuhangwang/vmd-dock/releases/download/0.1.0/dock.tcl)
+
 ## Usage
 First, copy the `dock.tcl` to your current directory.  
 Then open VMD's "Extensions/Tk Console" and type `source dock.tcl`.  
